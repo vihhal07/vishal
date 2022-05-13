@@ -1,0 +1,109 @@
+body{
+    background-color: gray;
+}
+.main_container{
+ width: 100%;
+ min-height: 100vh;   
+}
+.up{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: white;
+    color: red;
+    height: 18vh;
+    width: 30%;
+    padding-top: 20px;
+    font-style: italic;
+    border-radius: 20px;
+    text-align: center;
+    border:8px solid red;
+    text-shadow: 2px 2px 1px red;
+    box-shadow: 8px 8px rgb(78, 50, 78);
+
+}
+.min{
+    border: 8px solid green;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.we{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box2{
+    height: 30vh;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    border: 8px solid red;
+    text-shadow: 2px 2px 2px blueviolet;
+    box-shadow: 8px 8px blueviolet;
+    font-size: 26px;
+    padding-top: 20px;
+    
+}
+.right2{
+    font-weight: bold;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    
+}
+.c1{
+    background-color: green;
+    width: 50%;
+    min-height: 80vh;
+    border: 8px solid rgb(80, 65, 80);
+}
+.caa{
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    font-size: larger;
+    font-weight: bolder;
+}
+.cbb{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+
+}
+.cards{
+    background-color: yellow;
+    border: 4px solid green;
+    padding-top: 20px;
+    height: 32vh;
+    line-height: 40px;
+
+}
+.container1c{
+    background-color: yellow;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 4px solid green;
+    font-style: italic;
+    padding-bottom: 40px;
+
+}
+.ctr{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 450px;
+    font-style: italic;
+    color: red;
+    border: 8px solid red;
+    border-radius: 20px;
+    background-color: green;
+    position: fixed;
+    bottom: 90px;
+    left: 500px;
+
+}
