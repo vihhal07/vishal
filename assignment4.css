@@ -1,0 +1,146 @@
+
+.offer{
+   text-align: center;
+   height: auto ;
+   width: 90%;
+   
+   background-image: linear-gradient( 
+     to right,
+    red,
+    green,
+    yellow
+     );
+
+}
+.home{
+    background-color: aqua;
+    width: 70%;
+    height: 80px;
+    border-radius: 8px;
+   border: 2px solid red;
+   text-align: center;
+   margin-right: 100px;
+   margin-left: 100px;
+   
+   
+}
+.grd{
+   
+   display: flex;
+   justify-content: center;
+  background-color: aquamarine;
+   flex-flow: row wrap;
+   width: 90%;
+ 
+}
+.grid-itema{
+   height: 55px;
+   border: 2px solid;
+   width: 400px;
+   margin: 0 5px;
+   
+}
+.top{  text-align: center;
+   height: auto ;
+   width: 100%;
+   background-image: linear-gradient( 
+     to right,
+    red,
+   yellow,
+    red
+      );
+      text-decoration: underline;
+      width: 90%;
+}
+.all{
+   background-image: radial-gradient(
+      rgb(116, 116, 212),
+      rgb(109, 218, 147),
+      rgb(223, 173, 123)
+   );
+   text-decoration: underline;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   margin: 10px;
+   display: flex;
+   padding: 150px;
+   width: 69%;
+   
+}
+.all-it{
+   height: 90px;
+   width: 200px;
+   border: 2px solid red;
+   border-radius: 5px;
+   background-color: yellow;
+   text-align: center;
+   
+   
+}
+
+.grid-container {
+   color: white;
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 20px;
+   background-color: white;
+   display: grid;
+   grid-template-columns: 405px 405px 405px 100px;
+   grid-template-rows: 50px 80px 120px 40px;
+   gap: 10px 10px;
+
+   
+}
+.item1 {
+   background-color:red;
+   grid-column-start: 1;
+   grid-column-end: 5;
+   font-size: larger;
+   padding-top: 10px;
+   width: auto;
+   
+}
+.item2 {
+   background-color: darkgreen;
+   font-size: larger;
+   padding-top: 10px;
+}
+.item3 {
+   background-color: rgb(0, 119, 255);
+   text-align: left;
+   font-size: larger;
+}
+.item4 {
+   background-color: rgb(46, 46, 226);
+   text-align: left;
+   font-size: larger;
+}
+.item5 {
+   grid-column-start: 4;
+   grid-column-end: 5;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   text-align: left;
+   background-color: rgb(41, 33, 33);
+   font-size: 15px;
+   text-decoration: underline;
+
+}
+.item6 {
+   
+   grid-column-start: 1;
+   grid-column-end: 4;
+   background-color: rgb(223, 166, 45);
+   text-align: left;
+   font-size: larger;
+}
+.item7 {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-end: 5;
+        background-color: red;
+     font-size: larger;
+     padding-top: 10px;
+    
+}
